@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Frame</title>
+    <style>
+        .photo-album{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        .photo-frame{
+            width: 300px;
+            height: 200px;
+            border: 10px solid goldenrod;
+            border-radius: 10px;
+            position: relative;
+            margin: 5px;
+            overflow:  hidden;
+        }
+        .photo-frame:hover .photo img{
+             transform: scale(1.2); 
+            /* transform: rotate(360deg); */
+            /* transform: skew(30deg); */
+            transition: transform 2s;
+        
+        }
+        .photo-frame .photo img{
+            width: 100%;
+        }
+        .photo-details{
+            position: absolute;
+            width: 300px;
+            height: 200px;
+            top: 0px;
+            display: none;
+
+        }
+        .photo-frame:hover .photo-details{
+            /* display: block; */
+            background-color: rgba(218, 165, 32, 0.5);
+        }
+        .photo-frame:hover .photo-details h3{
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+        .photo-frame:hover .photo-details p{
+            color: white;
+        }
+
+           </style>
+</head>
+<body>
+    <h1>My photo book</h1>
+    <section class="photo-album">
+
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/pexels-photo-2649841.jpeg" alt="">
+                <div class="photo-details">
+                    <h3 >Royal Bengal tiger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, veritatis. Accusantium omnis eligendi, veniam amet nulla quis error architecto aliquam sunt aliquid? Mollitia sint perspiciatis soluta nulla quibusdam, officiis voluptas!</p>
+
+                </div>
+                    
+        
+            
+
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/pexels-photo-2649841.jpeg" alt="">
+                <div class="photo-details">
+                    <h3 >Royal Bengal tiger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, veritatis. Accusantium omnis eligendi, veniam amet nulla quis error architecto aliquam sunt aliquid? Mollitia sint perspiciatis soluta nulla quibusdam, officiis voluptas!</p>
+
+                </div>
+                    
+        
+            
+
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/pexels-photo-2649841.jpeg" alt="">
+                <div class="photo-details">
+                    <h3 >Royal Bengal tiger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, veritatis. Accusantium omnis eligendi, veniam amet nulla quis error architecto aliquam sunt aliquid? Mollitia sint perspiciatis soluta nulla quibusdam, officiis voluptas!</p>
+
+                </div>
+                    
+        
+            
+
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/pexels-photo-2649841.jpeg" alt="">
+                <div class="photo-details">
+                    <h3 >Royal Bengal tiger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, veritatis. Accusantium omnis eligendi, veniam amet nulla quis error architecto aliquam sunt aliquid? Mollitia sint perspiciatis soluta nulla quibusdam, officiis voluptas!</p>
+
+                </div>
+                    
+        
+            
+
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/pexels-photo-2649841.jpeg" alt="">
+                <div class="photo-details">
+                    <h3 >Royal Bengal tiger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, veritatis. Accusantium omnis eligendi, veniam amet nulla quis error architecto aliquam sunt aliquid? Mollitia sint perspiciatis soluta nulla quibusdam, officiis voluptas!</p>
+
+                </div>
+                    
+        
+            
+
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/pexels-photo-2649841.jpeg" alt="">
+                <div class="photo-details">
+                    <h3 >Royal Bengal tiger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, veritatis. Accusantium omnis eligendi, veniam amet nulla quis error architecto aliquam sunt aliquid? Mollitia sint perspiciatis soluta nulla quibusdam, officiis voluptas!</p>
+
+                </div>
+                    
+        
+            
+
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/pexels-photo-2649841.jpeg" alt="">
+                <div class="photo-details">
+                    <h3 >Royal Bengal tiger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, veritatis. Accusantium omnis eligendi, veniam amet nulla quis error architecto aliquam sunt aliquid? Mollitia sint perspiciatis soluta nulla quibusdam, officiis voluptas!</p>
+
+                </div>
+                    
+        
+            
+
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/pexels-photo-2649841.jpeg" alt="">
+                <div class="photo-details">
+                    <h3 >Royal Bengal tiger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, veritatis. Accusantium omnis eligendi, veniam amet nulla quis error architecto aliquam sunt aliquid? Mollitia sint perspiciatis soluta nulla quibusdam, officiis voluptas!</p>
+
+                </div>
+                    
+        
+            
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>
